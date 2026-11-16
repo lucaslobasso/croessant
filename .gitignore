@@ -90,3 +90,7 @@ out/
 
 # Generated CSS (npm run css)
 src/css/
+
+# Claude Code
+.claude/worktrees/
+.claude/settings.local.json

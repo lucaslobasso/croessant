@@ -10,7 +10,8 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "test": "node --test \"test/**/*.test.js\""
+    "test": "node --test \"test/**/*.test.js\"",
+    "screenshots": "node docs/screenshots.mjs"
   },
   "keywords": [
     "arca",
@@ -53,6 +54,7 @@
     "bulma": "^0.9.4",
     "bulma-pageloader": "^0.3.0",
     "electron": "^45.3.1",
+    "playwright-core": "^1.65.1",
     "sass": "^1.108.2"
   }
 }
